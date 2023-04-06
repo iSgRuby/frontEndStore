@@ -1,0 +1,118 @@
+/* estilos hechos por Manuel Reyes Alcalá */
+
+
+
+/* principales de la hoja de estilos */
+:root {
+    --primario: #40513B;
+    --secundario: #609966;
+    --terciario: #9DC08B;
+    --claro: #EDF1D6;
+
+    --fuente: 'Staatliches', cursive;
+}
+
+
+/* Elementos globales */
+
+html {
+    box-sizing: border-box; /* Arregla el box sizing */
+    /* Elementos globales para los estilos */
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/**  Globales  **/
+
+body {
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--claro);
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuente);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+/** header **/
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem 0;
+}
+
+/** navegacion **/
+
+.navegacion {
+    background-color: var(--secundario);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navegacion__enlace {
+    font-family: var(--fuente);
+    color: var(--claro);
+    font-size: 3rem;
+    padding: 1rem .5rem;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    background-color: var(--terciario);
+    color: var(--primario);
+}
+
+/** Footer **/
+
+.footer {
+    background-color: #609966;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__texto{
+    font-family: var(--fuente);
+    text-align: center;
+    font-size: 2.2rem;
+}
