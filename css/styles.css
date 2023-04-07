@@ -290,20 +290,18 @@ h3{
     }  
 }
 
-
-
 .formulario{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .formulario__campo{
  /* border-color: #609966;      Estas 3 lineas es lo mismo que
     border-width: 1rem;
     border-style: solid; */
-
     border: 1rem solid var(--secundario); /* esta linea */
+    
     background-color: transparent;
     color: var(--claro);
     font-size: 2rem;
