@@ -214,6 +214,7 @@ h3{
 
 .nosotros{
     display: grid;
+    align-items: center;
     grid-template-rows: repeat(2,1fr);
     margin: 2rem;
 }
