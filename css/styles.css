@@ -43,7 +43,7 @@ a{
 }
 
 img {
-    width: auto;
+    width: 100%;
 }
 
 .contenedor {
@@ -127,12 +127,10 @@ h3{
 /** Grid **/
 
 .grid{
-
     margin: 2rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
-
 }
 
 @media(min-width: 768px){
@@ -261,6 +259,7 @@ h3{
 /** pagina Producto **/
 
 .camisa{
+    margin: 0 2rem;
     text-align: center;
 }
 .camisa__imagen{
